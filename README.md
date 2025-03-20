@@ -30,13 +30,13 @@ Dc-1 will log out (prompt you to close) to restart
    Go to Vm in Azure -> click Dc-1 -> Public ip address -> Remote desktop -> Enter Username: "Specify Domain name (back slash) original username" -> Enter password
 
 5. Create Two Organizational Units(folders)
-   Start -> windows Administrative tools -> Active directory Users and computer -> Rt click domain name -> New Organizational unit (Org. Unit) -> Enter (Org. Unit) name "_ADMINS" (spelled excatly) -> Ok
+   Start -> windows Administrative tools -> Active directory Users and computers -> Rt click domain name -> New Organizational unit (Org. Unit) -> Enter (Org. Unit) name "_ADMINS" (spelled excatly) -> Ok
    Create second Unit
    Rt click domain name -> New Organizational unit (Org. Unit) -> Enter (Org. Unit) name "_EMPLOYEES" (spelled excatly) -> Ok
 
 6. Create Domain admin User
    Click the first (Org. Unit) "_ADMINS" -> Rt click empty Space -> New -> User -> Enter Name -> Enter login name -> Next -> Enter Password -> Uncheck "User must change password at next login" -> check " Password never changes
-   -> next -> Finish
+   -> next -> Finish -> Save creentials to Notepad
 
 7. Make account an Admin Account (Join to   domain Security Group)
    Rt click admin acc. (just created) -> properties -> Member of -> Under "enter the object names to select" type "domain names" (spelled excatly) -> check names -> Ok -> apply -> Ok
@@ -46,4 +46,15 @@ Dc-1 will log out (prompt you to close) to restart
 
  Now we will join the Second Virtual Machine (Client-1) to the Domain
 
-9.
+9. Login to Client-1
+   Go to Vm in Azure -> click Client-1 -> Public ip address -> Remote desktop -> Enter Username/password
+
+   Rt Start -> System -> Rename Pc Advanced -> Computer Name -> Change -> select Domain -> Enter name of the domain -> Ok -> Enter Admin Username/Password -> Ok -> Ok -> Restart / login
+
+10. Check if Client-1 has joined the domain
+    Go back to Dc-1 -> Search bar -> type "Active directory Users and computers" -> open -> Expand the domain name -> click computers
+
+11. Create New Organizational Unit(folder)
+    Active directory Users and computers -> Rt click domain name -> New Organizational unit (Org. Unit) -> Enter (Org. Unit) name "_ClientS" (spelled excatly) -> Ok -> Drag Client-1 from Computer (Org. Unit) to "_ClientS"
+
+Congratulations on Successfully Configuring and deploying Active directory. Now you are ready for the last  project were you can gain experience with powershell creating users,  using group policy, and managing the user accpounts. 
