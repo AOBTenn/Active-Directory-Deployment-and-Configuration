@@ -2,18 +2,18 @@
 
 Active-Directory-Configuration-and-Deployment-of-Active-Directory
 
-<h2>Environments and Technologies Used</h2>
+Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems Used 
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+List of Prerequisites
 
-<h2>Installation Steps</h2>
+Installation Steps
 
 1. Login to Domain Controller (Dc-1)
    Go to Vm in Azure -> click Dc-1 -> Public ip address -> Remote desktop -> Enter Username/password
@@ -57,4 +57,4 @@ Dc-1 will log out (prompt you to close) to restart
 11. Create New Organizational Unit(folder)
     Active directory Users and computers -> Rt click domain name -> New Organizational unit (Org. Unit) -> Enter (Org. Unit) name "_ClientS" (spelled excatly) -> Ok -> Drag Client-1 from Computer (Org. Unit) to "_ClientS"
 
-Congratulations on Successfully Configuring and deploying Active directory. Now you are ready for the last  project were you can gain experience with powershell creating users,  using group policy, and managing the user accpounts. 
+Congratulations on Successfully Configuring and deployed Active directory. Now you are ready for the last project were you can gain experience with powershell creating users, using group policy, and managing the user accpounts. 
