@@ -1,6 +1,8 @@
 # Active-Directory-Deployment-and-Configuration
 
-Active-Directory-Configuration-and-Deployment-of-Active-Directory
+<h2>Discription </h2>
+
+In this second project we are going to actually install and configure Active Directory.
 
 <h2>Environments and Technologies Used</h2>
 
