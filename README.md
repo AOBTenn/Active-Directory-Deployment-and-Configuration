@@ -4,16 +4,17 @@ Active-Directory-Configuration-and-Deployment-of-Active-Directory
 
 <h2>Environments and Technologies Used</h2>
 
-Microsoft Azure (Virtual Machines/Computer)
-Remote Desktop
+- Microsoft Azure (Virtual Machines/Computer)
+- Remote Desktop
+- Active Directory
 
-<h2>Operating Systems Used </h2> 
+<h2>Operating Systems Used </h2>
 
-Windows 10</b> (21H2)
+- Windows 10</b> (21H2)
+- Windows Server 2022  "Azure Edition"
 
-<h2>List of Prerequisites</h2>
 
-Installation Steps
+Deployment Steps
 
 1. Login to Domain Controller (Dc-1)
 
