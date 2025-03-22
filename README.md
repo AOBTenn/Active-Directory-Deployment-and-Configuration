@@ -2,16 +2,16 @@
 
 Active-Directory-Configuration-and-Deployment-of-Active-Directory
 
-Environments and Technologies Used
+<h2>Environments and Technologies Used</h2>
 
 Microsoft Azure (Virtual Machines/Computer)
 Remote Desktop
 
-<h2>Operating Systems Used 
+<h2>Operating Systems Used </h2> 
 
 Windows 10</b> (21H2)
 
-List of Prerequisites
+<h2>List of Prerequisites</h2>
 
 Installation Steps
 
