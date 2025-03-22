@@ -11,7 +11,7 @@ Active-Directory-Configuration-and-Deployment-of-Active-Directory
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
-- Windows Server 2022  "Azure Edition"
+- Windows Server 2022 Azure Edition
 
 
 <h2>Deployment Steps</h2>
