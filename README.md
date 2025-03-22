@@ -14,7 +14,7 @@ Active-Directory-Configuration-and-Deployment-of-Active-Directory
 - Windows Server 2022  "Azure Edition"
 
 
-Deployment Steps
+<h2>Deployment Steps</h2>
 
 1. Login to Domain Controller (Dc-1)
 
