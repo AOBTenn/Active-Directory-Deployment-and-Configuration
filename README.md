@@ -1,6 +1,8 @@
 # Active-Directory-Deployment-and-Configuration
 
-<h2>Discription </h2>
+![image](https://github.com/user-attachments/assets/e2d78ecf-468d-4d2b-8fc4-d839bf116ed9)
+
+<h2>Description </h2>
 
 In this second project we are going to actually install and configure Active Directory.
 
