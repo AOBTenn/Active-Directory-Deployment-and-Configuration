@@ -116,11 +116,8 @@ Go to Vm in Azure -> click Dc-1 -> Public ip address -> Remote desktop -> Enter 
  <p> 
 </p>
 
-![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
- <p> 
-</p>
+![image](https://github.com/user-attachments/assets/bf0cd485-ebff-4738-885f-bf7bf3876da9)
 
-![image](https://github.com/user-attachments/assets/3720286a-d340-48b3-822f-7c4e70563ddb)
  <p> 
 </p>
 
