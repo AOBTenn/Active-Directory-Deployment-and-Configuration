@@ -232,15 +232,11 @@ Now we will join the Second Virtual Machine (Client-1) to the Domain
  <p> 
 </p>
 
-Go to Vm in Azure -> Click Client-1 -> Public Ip Address -> Remote Desktop -> Enter Username/Password
+Go to Vm in Azure -> Client-1 -> Public Ip address -> Remote Desktop -> Enter Username/Password
  <p> 
 </p>
 
 ![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
- <p> 
-</p>
-
-![image](https://github.com/user-attachments/assets/c4b37281-5fa0-432d-a2a7-9e8959b905d1)
  <p> 
 </p>
 
