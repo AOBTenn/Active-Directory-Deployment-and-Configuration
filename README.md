@@ -24,7 +24,7 @@ In this second project we are going to actually install and configure Active Dir
  <p> 
 </p>
 
-Go to Vm in Azure -> click Dc-1 -> Public Ip Address -> Remote desktop -> Enter Username/Password
+Go to Vm in Azure -> Click Dc-1 -> Public Ip Address -> Remote Desktop -> Enter Username/Password
  <p> 
 </p>
 
@@ -76,11 +76,11 @@ Start -> Server Manager -> Add Roles and Features -> Next 3x -> Select Active Di
  <p> 
 </p>
 
-3. Configure Dc-1 (actually become Domain controller)
+3. Configure Dc-1 (actually become Domain Controller)
  <p> 
 </p>
 
-Start -> Server Manager -> Click flag/caution sign -> Click "Promote This Server to a Domain controller" -> Add a New Forest -> Type Root Domain Name -> Next -> Type Password -> Next -> *Note* make sure "Create DNS delegation" is Unchecked -> Next 4x -> Install
+Start -> Server Manager -> Click Flag/Caution Sign -> Click "Promote This Server to a Domain controller" -> Add a New Forest -> Type Root Domain Name -> Next -> Type Password -> Next -> *Note* make sure "Create DNS delegation" is Unchecked -> Next 4x -> Install
  <p> 
 </p>
 
@@ -112,7 +112,7 @@ Dc-1 will log out (prompt you to close) to restart
  <p> 
 </p>
 
-Go to Vm in Azure -> click Dc-1 -> Public ip address -> Remote desktop -> Enter Username: "Specify Domain Name (back slash) original Username" -> Enter password
+Go to Vm in Azure -> Click Dc-1 -> Public Ip Address -> Remote Desktop -> Enter Username: "Specify Domain Name (back slash) original Username" -> Enter password
  <p> 
 </p>
 
@@ -129,7 +129,7 @@ Go to Vm in Azure -> click Dc-1 -> Public ip address -> Remote desktop -> Enter 
  <p> 
 </p>
 
-Start -> Windows Administrative Tools -> Active directory Users and Computers -> Rt Click Domain Name -> New Organizational Unit (Org. Unit) -> Enter (Org. Unit) Name "_ADMINS" (spelled excatly) -> Ok
+Start -> Windows Administrative Tools -> Active Directory Users and Computers -> Rt Click Domain Name -> New Organizational Unit (Org. Unit) -> Enter (Org. Unit) Name "_ADMINS" (spelled excatly) -> Ok
  <p> 
 </p>
 
@@ -189,7 +189,7 @@ Click the first (Org. Unit) "_ADMINS" -> Rt Click empty space -> New -> User -> 
  <p> 
 </p>
 
-Rt Click Admin Account (just created) -> Properties -> Member of -> Under "enter the object names to select" type "domain names" (spelled excatly) -> Check Names -> Ok -> Apply -> Ok
+Rt Click Admin Account (just created) -> Properties -> Member of -> Under "Enter the object names to select" type "domain names" (spelled excatly) -> Check Names -> Ok -> Apply -> Ok
  <p> 
 </p>
 
@@ -209,7 +209,7 @@ Rt Click Admin Account (just created) -> Properties -> Member of -> Under "enter
  <p> 
 </p>
 
-8. Log out of DC-1 (domain) controller / Login back into to Dc-1 as Admin User (just created)
+8. Log out of DC-1 (Domain Controller) / Login back into to Dc-1 as Admin User (just created)
  <p> 
 </p>
 
@@ -229,7 +229,7 @@ Now we will join the Second Virtual Machine (Client-1) to the Domain
  <p> 
 </p>
 
-Go to Vm in Azure -> Client-1 -> Public Ip address -> Remote Desktop -> Enter Username/Password
+Go to Vm in Azure -> Client-1 -> Public Ip Address -> Remote Desktop -> Enter Username/Password
  <p> 
 </p>
 
@@ -269,7 +269,7 @@ Rt Start -> System -> Rename Pc Advanced -> Computer Name -> Change -> Select Do
  <p> 
 </p>
 
-Go back to Dc-1 -> Search bar -> Type "Active directory Users and Computers" -> Open -> Expand the Domain Name -> Click Computers
+Go back to Dc-1 -> Search bar -> Type "Active Directory Users and Computers" -> Open -> Expand the Domain Name -> Click Computers
  <p> 
 </p>
 
@@ -305,4 +305,4 @@ Active Directory Users and Computers -> Rt Click Domain Name -> New Organization
  <p> 
 </p>
 
-Congratulations on Successfully Configuring and deployed Active directory. Now you are ready for the last project were you can gain experience with powershell creating users, using group policy, and managing the user accpounts. 
+Congratulations on successfully configuring and deploying Active Directory. Now you are ready for the last project were you can gain experience with Powershell creating Users, using Group policy, and Managing the User Accounts. 
