@@ -100,6 +100,11 @@ Click the first (Org. Unit) "_ADMINS" -> Rt Click empty space -> New -> User -> 
 
 Rt Click Admin Account (just created) -> Properties -> Member of -> Under "enter the object names to select" type "domain names" (spelled excatly) -> Check Names -> Ok -> Apply -> Ok
 
+![image](https://github.com/user-attachments/assets/3bbf68f3-37b9-4eee-a612-9d7548317edc)
+![image](https://github.com/user-attachments/assets/f91d99a6-c385-4061-b094-3a10a2220a6d)
+![image](https://github.com/user-attachments/assets/a4bdfe90-9d0d-469b-8169-407ee86934ef)
+![image](https://github.com/user-attachments/assets/6dd72024-faca-4f11-8ddb-10a0d83a2388)
+
 12. Log out of DC-1 (domain) controller / Login back into to Dc-1 as Admin User (just created)
 
 Remote desktop -> Public Ip Address -> Enter Username: "Specify Domain Name (back slash) Domain Admin Username" -> Enter Domain Admin Password
