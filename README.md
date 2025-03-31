@@ -75,13 +75,26 @@ Go to Vm in Azure -> click Dc-1 -> Public ip address -> Remote desktop -> Enter 
 
 Start -> Windows Administrative Tools -> Active directory Users and Computers -> Rt Click Domain Name -> New Organizational Unit (Org. Unit) -> Enter (Org. Unit) Name "_ADMINS" (spelled excatly) -> Ok
 
+![image](https://github.com/user-attachments/assets/d0352e96-f3f9-4294-b2d0-5db6aed1f92d)
+![image](https://github.com/user-attachments/assets/6d120792-0c13-4341-beeb-36fb24684f13)
+![image](https://github.com/user-attachments/assets/cde91f54-bbca-4e1e-b024-3138a4b71f19)
+
 Create second Unit
+
 Rt Click Domain Name -> New Organizational unit (Org. Unit) -> Enter (Org. Unit) Name "_EMPLOYEES" (spelled excatly) -> Ok
+
+![image](https://github.com/user-attachments/assets/6d120792-0c13-4341-beeb-36fb24684f13)
+![image](https://github.com/user-attachments/assets/cde91f54-bbca-4e1e-b024-3138a4b71f19)
+![image](https://github.com/user-attachments/assets/12634c20-2d5e-454a-9fac-07be4b1bcbaa)
 
 8. Create Domain Admin User
 
 Click the first (Org. Unit) "_ADMINS" -> Rt Click empty space -> New -> User -> Enter Name -> Enter Login Name -> Next -> Enter Password -> Uncheck "User must change password at next login" -> Check " Password never changes"
 -> next -> Finish -> Save Crendtials to Notepad
+
+![image](https://github.com/user-attachments/assets/d0f47ea9-0a4c-485e-acc2-12b0a6238659)
+![image](https://github.com/user-attachments/assets/dd6a1e66-a1f6-44cd-8d00-530839b4eb85)
+![image](https://github.com/user-attachments/assets/4d395ab7-5d65-4ced-9c64-3949406ac6da)
 
 10. Make account an Admin Account (Join to domain Security Group)
 
