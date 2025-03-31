@@ -24,9 +24,19 @@ In this second project we are going to actually install and configure Active Dir
 
 Go to Vm in Azure -> click Dc-1 -> Public Ip Address -> Remote desktop -> Enter Username/Password
 
+
 3. Install Active Directory
 
 Start -> Server Manager -> Add Roles and Features -> Next 3x -> Select Active Directory Domain Services -> Add Features -> Next 3x -> Check "Restart if Required" -> Yes -> Install -> Close
+
+![image](https://github.com/user-attachments/assets/dc8a6b66-4b75-446f-845a-316db3f4d383)
+![image](https://github.com/user-attachments/assets/2b31d70c-9520-4681-b6d8-b38fbf9323fc)
+![image](https://github.com/user-attachments/assets/0b553b39-d7bd-4814-ba32-277347f7cd37)
+![image](https://github.com/user-attachments/assets/137b8b17-b426-4bac-a87f-fa07cb099c49)
+![image](https://github.com/user-attachments/assets/b0beb1cb-fa75-4c11-b17e-beab02e19557)
+![image](https://github.com/user-attachments/assets/bad329b7-11be-4970-8f40-73954a47c272)
+![image](https://github.com/user-attachments/assets/acdc73e9-2dda-4987-adc7-f2c35334954a)
+![image](https://github.com/user-attachments/assets/7a9ee9ce-92cf-4e6c-9f66-994a10b5d57a)
 
 5. Configure Dc-1 (actually become Domain controller)
 
