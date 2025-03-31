@@ -24,6 +24,13 @@ In this second project we are going to actually install and configure Active Dir
 
 Go to Vm in Azure -> click Dc-1 -> Public Ip Address -> Remote desktop -> Enter Username/Password
 
+![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
+ <p> 
+</p>
+
+![image](https://github.com/user-attachments/assets/3720286a-d340-48b3-822f-7c4e70563ddb)
+ <p> 
+</p>
 
 3. Install Active Directory
 
@@ -42,11 +49,27 @@ Start -> Server Manager -> Add Roles and Features -> Next 3x -> Select Active Di
 
 Start -> Server Manager -> Click flag/caution sign -> Click "Promote This Server to a Domain controller" -> Add a New Forest -> Type Root Domain Name -> Next -> Type Password -> Next -> *Note* make sure "Create DNS delegation" is Unchecked -> Next 4x -> Install
 
+![image](https://github.com/user-attachments/assets/be477151-bf63-42e7-a328-351c17b9a2c0)
+![image](https://github.com/user-attachments/assets/b94041cd-9f10-4ab8-ab34-59ce29fe61f2)
+![image](https://github.com/user-attachments/assets/5cbc91fb-4c15-4823-a578-4913d958f78b)
+![image](https://github.com/user-attachments/assets/20394feb-c017-44d9-b793-80892659e7bb)
+![image](https://github.com/user-attachments/assets/7779b3c3-ffc7-4c3a-a4cb-92ea6446f0f4)
+
 Dc-1 will log out (prompt you to close) to restart 
 
 4. Login back into to Dc-1
 
 Go to Vm in Azure -> click Dc-1 -> Public ip address -> Remote desktop -> Enter Username: "Specify Domain Name (back slash) original Username" -> Enter password
+
+![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
+ <p> 
+</p>
+
+![image](https://github.com/user-attachments/assets/3720286a-d340-48b3-822f-7c4e70563ddb)
+ <p> 
+</p>
+
+![image](https://github.com/user-attachments/assets/4c5c4133-3260-461c-930f-0c056ff75a2d)
 
 6. Create Two Organizational Units(folders)
 
